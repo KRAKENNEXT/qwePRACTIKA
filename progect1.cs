@@ -1,0 +1,18 @@
+using System;
+
+namespace Calculate
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            char again = 'y';
+                while (again == 'y')
+            {
+                double total;
+                Console.WriteLine("Введите первое число");
+                var a = Convert.ToDouble(Console.ReadLine());
+                Console.WriteLine("Введите действие");
+                var oper = Convert.ToChar(Console.ReadLine());
+                Console.WriteLine("Введите второе число");
+                var b = Convert.ToDouble(Console.ReadLine());
