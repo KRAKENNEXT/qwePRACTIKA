@@ -16,7 +16,6 @@
 
 
 
-
                 if (oper == '+')
                 {
                     total = a + b;
